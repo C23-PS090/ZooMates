@@ -1,9 +1,6 @@
 from flask import Flask, jsonify
 import mysql.connector
 
-app = Flask(_name_)
-
-@app.route('/hewan', methods=['GET'])
 def get_hewan():
     try:
         # Establish a connection to the database
@@ -52,5 +49,3 @@ def get_hewan():
     except Exception as e:
         return jsonify({'error': str(e)})
 
-if _name_ == '_main_':
-    app.run(host='0.0.0.0', port=5000)
