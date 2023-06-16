@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ZooMates</string>
+    <string name="photo_button">Photo Button</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="scan">Scan</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="scan_hewan">Scan Hewan</string>
+    <string name="tampilan_binatang">Tampilan Binatang</string>
+    <string name="jenis">Jenis</string>
+    <string name="nama">Nama</string>
+    <string name="colon">:</string>
+    <string name="diet">Diet</string>
+    <string name="makanan">Makanan</string>
+    <string name="reproduksi">Reproduksi</string>
+    <string name="ciri_tubuh">Ciri Tubuh</string>
+    <string name="kemampuan">Kemampuan</string>
+    <string name="habitat">Habitat</string>
+    <string name="pernapasan">Pernapasan</string>
+    <string name="pergerakan">Pergerakan</string>
+    <string name="karakteristik">Karakteristik</string>
+
+    <string name="stop_text_to_speech">Stop Text-to-Speech</string>
+    <string name="start_text_to_speech">Start Text-to-Speech</string>
+
+    <string name="depth_use_explanation">Saat kedalaman diaktifkan pada perangkat yang didukung, objek virtual beradaptasi dengan lingkungan dan menyatu dengan dunia nyata.</string>
+    <string name="button_text_enable_depth">Aktifkan</string>
+    <string name="button_text_disable_depth">Matikan</string>
+    <string name="options_title_with_depth">Perangkat anda mendukung kedalaman</string>
+    <string name="options_title_without_depth">Perangkat anda tidak mendukung kedalaman</string>
+    <string name="done" translatable="false">Selesai</string>
+    <string-array name="depth_options_array">
+        <item>Aktifkan kedalaman</item>
+        <item>Tunjukkan peta kedalaman</item>
+    </string-array>
+    <string name="options_title_instant_placement">Pengaturan penempatan instan</string>
+    <string-array name="instant_placement_options_array">
+        <item>Aktifkan penempatan instan</item>
+    </string-array>
+    <string name="searching_planes">Mencari permukaan...</string>
+    <string name="waiting_taps">Tekan di permukaan untuk menempatkan model</string>
+
+    <string name="list_binatang">Daftar Binatang</string>
+    <string name="galeri">Galeri</string>
+    <string name="daftar_binatang">Daftar Binatang</string>
+    <string name="ar_view">Ar View</string>
+</resources>

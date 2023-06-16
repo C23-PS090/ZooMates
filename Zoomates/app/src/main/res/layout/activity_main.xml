@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:fontFamily="@font/starborn"
+        style="@style/Base.Theme.Nasco.default"
+        android:textColor="@color/title"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        tools:text="@string/app_name"
+        android:text="@string/app_name"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fl_hero"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/fl_hero"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        tools:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/tv_app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/btn_scan"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="true" />
+
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        tools:text="Scan"
+        android:text="@string/scan"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button_background_tint"
+        android:textColor="@color/button_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_galeri"
+        app:layout_constraintTop_toBottomOf="@id/fl_hero"
+        android:layout_height="70dp" />
+
+    <Button
+        android:id="@+id/btn_galeri"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        tools:text="Galeri"
+        android:backgroundTint="@color/button_background_tint"
+        android:textColor="@color/button_text"
+        android:text="@string/galeri"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_scan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="70dp" />
+
+    <Button
+        android:id="@+id/btn_list_binatang"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/button_background_tint"
+        android:text="@string/list_binatang"
+        android:textColor="@color/button_text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_galeri"
+        tools:text="@string/daftar_binatang" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
