@@ -33,3 +33,18 @@ https://drive.google.com/drive/u/4/folders/1KfpVHk3mbOy7T4IBGfuqlQ7aCH_nMUQw
 
 # Full API Backend
 https://drive.google.com/drive/folders/1rScRp9FxdP3CQKG8gBGOQ1EsjFQWQjBB?usp=sharing
+
+# Application
+Our application source code in this repository is without the 3d animal model but if you want to use the 3d model for AR, you can found the full zip file or build apk on this link:
+https://drive.google.com/drive/u/4/folders/17jRFm8g1irAYO7WyQvF-5Q_ZPtBH-j91
+Extract the zip model in Zoomates\app\src\main\assets\models and run the app.
+
+For the AR features in our application, we use code from the ARCore public repository and add a little code to create dynamic 3d model calls according to the predicted results. We are using version 1.37.0 for kotlin and we have also included a link to the ARCore repository below:
+https://github.com/google-ar/arcore-android-sdk
+
+We will also obey to the ARCore Additional Terms of Service which can be found below and this link:
+https://developers.google.com/ar/developers/terms 
+
+For now, Zoomates only provides 19 animals that can be displayed in AR as shown in the list below:
+['cat', 'crab', 'crocodile', 'dog', 'dolphin', 'duck', 'elephant', 'fox', 'frog', 'goldfish', 'goose', 'grasshopper', 'harborseal', 'hyena', 'iguana', 'kangaroo', 'killerwhale', 'lizard', 'monkey']
+Actually these models are free models which are published on several websites like free3d.com and sketchfab.com.
