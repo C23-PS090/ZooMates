@@ -1,2 +1,0 @@
-# ZooMates
-zoomates (animal detection)
